@@ -1,30 +1,35 @@
-.friend1{
-    display:inline-block;
-    width:150px;
-    height: 250px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin-right:15px;
+.allcat{
+    display:grid;
+    grid-template-columns: 150px 150px 150px;
+    column-gap: 20px;
+    
 }
 
-.cat1{
-    font-family:arial;
-    width: 150px;
-    height: 150px;
+.friend{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 8px;
+    
+}
+
+.cat{
+    width:100%;
+    height:150px;
     object-fit: cover;
+}
+
+.cat-name{
+    font-weight: bold;
+    margin-left:8px;
+    margin-top:0;
     margin-bottom: 0;
 }
 
-.cat1-name{
-    font-weight: bold;
-    margin-top:0;
-    margin-bottom:0;
-}
-
-.cat1-friend{
+.cat-friend{
     color:gray;
-    margin-top: 0;
-    margin-bottom:0;
     font-size: 14px;
+    margin-left:8px;
+    margin-top:0;
+    margin-bottom: 4px;
 }
 
 button{
@@ -37,8 +42,10 @@ button{
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 4px;
-    margin-top:8px;
     transition: 0.3s;
+    margin-left: 8px;
+    margin-top:0;
+
 }
 
 button:hover{
@@ -50,74 +57,8 @@ button:active{
     opacity: 0.4;
 }
 
-.friend2{
-    display:inline-block;
-    width:150px;
-    height: 250px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    margin-right: 15px;
-}
 
-.cat2{
-    font-family:arial;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 0;
-}
-
-.cat2-name{
-    font-weight: bold;
-    margin-top:0;
-    margin-bottom:0;
-}
-
-.cat2-friend{
-    color:gray;
-    margin-top: 0;
-    margin-bottom:0;
-    font-size: 14px;
-}
-
-.friend3{
-    display:inline-block;
-    width:150px;
-    height: 250px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.cat3{
-    font-family:arial;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 0;
-}
-
-.cat3-name{
-    font-weight: bold;
-    margin-top:0;
-    margin-bottom:0;
-}
-
-.cat3-friend{
-    color:gray;
-    margin-top: 0;
-    margin-bottom:0;
-    font-size: 14px;
-}
-
-.friend1:hover {
-    transform: scale(1.05); /* Scales the div to 110% of its size */
-    transition: transform 0.3s ease; /* Smooth animation */
-}
-
-.friend2:hover{
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-.friend3:hover{
+.friend:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }

@@ -1,0 +1,46 @@
+.grid1{
+    display:grid;
+    grid-template-columns: 100px 75px;
+}
+
+.item1{
+    background-color: lightblue;
+}
+
+.item2{
+    background-color: lightpink;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-top: 25px;
+}
+
+.col1{
+    background-color: lightblue;
+}
+
+.col2{
+    background-color: lightpink;
+}
+
+.col3{
+    background-color: lightblue;
+}
+
+.grid3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:25px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.p{
+    background-color: lightpink;
+}
+
+.b{
+    background-color: lightblue;
+}

@@ -1,36 +1,15 @@
-*{
-    font-family:roboto, arial;
-}
-
-.search{
-    display: block;
-}
-
 .thumbnail{
-    width: 300px;
-    display:block;
+    width: 100%;
 }
-
-.video-preview{
-    width: 300px;
-    display: inline-block;
-    margin-right: 15px;
-    vertical-align: top;
-}
+  
 
 .thumbnail-row{
     margin-bottom: 12px;
 }
 
-.channel-picture{
-    display:inline-block;
-    width: 50px;
-    vertical-align: top;
-}
-
-.video-info{
-    display:inline-block;
-    width: 215px;
+.text-row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .profile-picture{
@@ -55,4 +34,11 @@
 
 .video-author{
     margin-bottom: 4px;
+}
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
