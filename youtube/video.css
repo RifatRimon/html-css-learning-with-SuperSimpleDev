@@ -5,6 +5,7 @@
 
 .thumbnail-row{
     margin-bottom: 12px;
+    position: relative;
 }
 
 .text-row{
@@ -13,7 +14,7 @@
 }
 
 .profile-picture{
-    width:37px;
+    width:36px;
     border-radius: 50px;
 }
 
@@ -41,4 +42,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+.video-time{
+    position: absolute;
+    right:5px;
+    bottom: 8px;
+    background-color: black;
+    color:white;
+    padding-top:4px;
+    padding-bottom: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
 }
